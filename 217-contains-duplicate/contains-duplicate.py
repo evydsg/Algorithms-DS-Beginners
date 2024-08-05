@@ -34,7 +34,7 @@ class Solution:
         for num in nums:
             if num in dictionary:
                 dictionary[num] = True
-                return True
+                return dictionary[num]
             else:
                 dictionary[num] = False
         
